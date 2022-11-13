@@ -1,0 +1,16 @@
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+  .testLists {
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+
+    .listElement {
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+  }
+}

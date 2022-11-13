@@ -1,0 +1,30 @@
+.wallet-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .pkh {
+    display: flex;
+    justify-content: flex-start;
+    border-right: dotted 2px;
+  }
+
+  .balance {
+    border-right: dotted 2px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .close {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
